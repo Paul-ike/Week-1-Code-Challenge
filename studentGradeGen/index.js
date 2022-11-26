@@ -1,34 +1,23 @@
-let btn = document.getElementsByTagName('button')
-btn.addEventListener(onclick, studentGradeGenerator())
-let h1 = document.getElementsByTagName('h1')
+let btn = document.getElementById('btn')
 
-
-function studentGradeGenerator(studentMarks) {
+btn.addEventListener('click', function(){
 
     let studentMarks = prompt('Please enter your marks: ')
 
+    let h3 = document.getElementById('grade')
 
-    if (studentMarks >= 0 && studentMarks <= 100) {
-        switch (studentMarks) {
-            case 79 >= 100:
-                h1.innerHTML = 'A'
-                break;
-            case 60 >= 79:
-                h1.innerHTML = 'B'
-                break;
-            case 50 >= 59:
-                h1.innerHTML = 'C'
-                break;    
-            case 40 >= 49:
-                h1.innerHTML = 'D'
-                break;
-            case 0 >= 39:
-                h1.innerHTML = 'E'
-                break;
-            default:
-                break;
-        }
-    } else {
-        console.log('Marks should be between 0 - 100');
+    if (studentMarks > 79 && studentMarks <= 100) {
+        h3.innerHTML = 'A'
+    } if (studentMarks >= 60 && studentMarks <= 79) {
+        h3.innerHTML = 'B'
+    } if (studentMarks >= 50 && studentMarks <= 59) {
+        h3.innerHTML = 'C'
+    } if (studentMarks >= 40 && studentMarks <= 49) {
+        h3.innerHTML = 'D'
+    } if (studentMarks <= 39 && studentMarks >= 0) {
+        h3.innerHTML = 'E'
+    } if (studentMarks > 100 || studentMarks < 0) {
+        h3.innerHTML = 'Try Again!'
     }
-}
+    
+})
