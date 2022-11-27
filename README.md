@@ -14,3 +14,7 @@
     - ENTER SALARY AND BENEFITS
     - CLICK BUTTON
     - GENERATE OUTPUT
+
+![Screenshot](gradegen.png)
+![Screenshot](speeddetector.png)
+![Screenshot](netsalary.png)
