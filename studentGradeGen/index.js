@@ -1,11 +1,12 @@
+// declare the called button
 let btn = document.getElementById('btn')
-
+// add event listener to the button
 btn.addEventListener('click', function(){
-
+// student input
     let studentMarks = prompt('Please enter your marks: ')
 
     let h3 = document.getElementById('grade')
-
+// generation of grade
     if (studentMarks > 79 && studentMarks <= 100) {
         h3.innerHTML = 'A'
     } if (studentMarks >= 60 && studentMarks <= 79) {

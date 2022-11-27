@@ -1,5 +1,6 @@
+// declare the called button
 const button = document.getElementById("submitBtn")
-
+// add event listener to the button
 button.addEventListener("click", function(){
     const bSalary = parseInt(document.getElementById("basic").value)
     const bBenefits = parseInt(document.getElementById("benefits").value)
@@ -9,9 +10,9 @@ button.addEventListener("click", function(){
 
     let taxablePay = parseInt(grossPay - (bBenefits + 24000));
     
-   
+//    generation of tax
     let tax;
-    
+
     if (grossPay >=0 && grossPay<=24000) {
         tax = 0.1 * taxablePay;
         document.getElementById("tax").innerText = "Tax:" + tax
@@ -26,10 +27,10 @@ button.addEventListener("click", function(){
         tax = 0.3 * taxablePay;
         document.getElementById("tax").innerText = "Tax: " + tax
     }
-
+// generation of nssf
     let nssf = 0.06 * grossPay
     document.getElementById("nssf").innerText =  "NSSF: " + nssf
-
+// generation of NHIF
     let nhif;
     if(grossPay <= 30000){
        
@@ -102,7 +103,7 @@ button.addEventListener("click", function(){
         nhif = 1700;
         document.getElementById("nhif").innerText = "NHIF: " + nhif
     }
-
+// generation of net salary
     let netSalary = grossPay - (tax + nhif + nssf);
     document.getElementById("netsalary").innerText = "Net Salary: " + netSalary
 
