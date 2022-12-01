@@ -17,4 +17,4 @@
 
 ![Screenshot](gradegen.png)
 ![Screenshot](speeddetector.png)
-![Screenshot](netsalary.png)
+![Screenshot](netsalary1.png)
