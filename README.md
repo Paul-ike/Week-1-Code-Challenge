@@ -7,6 +7,12 @@
     The following projects are created by:
     - Paul Wanyoike Ngugi
     - on 30/11/2022
+#### setup/installation requirements
+    - download a zip file under code tab.
+    - extract the downloaded zip folder
+    - open the folder with VS code
+    - run the html file of each of the project application by right clicking on it and clicking 'open with live server.'
+    - input your iputs and the app will generate its output.
 #### technologies used
     The following projects used the technologies
     :
