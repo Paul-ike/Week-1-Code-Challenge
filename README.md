@@ -31,6 +31,12 @@ Copyright 2021 Paul Wanyoike Ngugi Licensed under[MT License](https://github.com
     - ENTER SPEED 
     - CLICK BUTTON
     - GENERATE OUTPUT
+##### BDD
+As a user should;
+    - input your marks to the input.
+    - the application generates your grade
+##### Known Bugs
+    The application works perfectly well, no bugs.
 
 #### NET SALARY CALCULATOR
 ##### project description
