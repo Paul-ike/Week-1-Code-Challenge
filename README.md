@@ -50,7 +50,14 @@ As a user should;
     - ENTER SALARY AND BENEFITS
     - CLICK BUTTON
     - GENERATE OUTPUT
-
+##### BDD
+As a user should;
+    - input your salary and benefits to the input.
+    - the application generates the amount you have been cut short due to tax, nssf and nhif.
+    - It provides you gross pay and net salary.
+##### Known Bugs
+    The application works perfectly well, no bugs.
+    
 ![Screenshot](gradegen.png)
 ![Screenshot](speeddetector.png)
 ![Screenshot](netsalary1.png)
