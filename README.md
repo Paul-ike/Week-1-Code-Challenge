@@ -24,6 +24,12 @@ Copyright 2021 Paul Wanyoike Ngugi Licensed under[MT License](https://github.com
     - ENTER STUDENT MARKS
     - CLICK BUTTON
     - GENERATE GRADE
+##### BDD
+As a user should;
+    - input your marks to the input.
+    - the application generates your grade
+##### Known Bugs
+    The application works perfectly well, no bugs.
 
 #### SPEED DETECTOR
 ##### project description
@@ -33,11 +39,11 @@ Copyright 2021 Paul Wanyoike Ngugi Licensed under[MT License](https://github.com
     - GENERATE OUTPUT
 ##### BDD
 As a user should;
-    - input your marks to the input.
-    - the application generates your grade
+    - input your speed to the input.
+    - the application generates your points or says your licensed is suspended if you above limit.
 ##### Known Bugs
     The application works perfectly well, no bugs.
-
+ 
 #### NET SALARY CALCULATOR
 ##### project description
     - the application checks the employee's taxes by inputing their salary and benefits.
