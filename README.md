@@ -13,7 +13,11 @@
     - HTML
     - CSS
     - JS
-
+#### Support and Contact information
+    Email: paulnyoiken@gmail.com
+    Phone: +254718741382
+#### License and Copyright Information
+Copyright 2021 Paul Wanyoike Ngugi Licensed under[MT License](https://github.com/Paul-ike/Week-1-Code-Challenge/blob/main/LICENSE)
 #### STUDENT GRADE GENERATOR
 ##### project description
     - the application checks the student's grade by inputing their marks.
